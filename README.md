@@ -9,7 +9,7 @@ This repository is high level deployment definition for Kubemonkey implementatio
 
 Custom chart modifications:
 
-```toml
+```yaml
 dryRun = true                           # Terminations are only logged
 runHour = 8                             # Run scheduling at 8am on weekdays
 startHour = 10                          # Don't schedule any pod deaths before 10am
