@@ -1,0 +1,11 @@
+config:
+  config:
+    dryRun: true  
+    runHour: 40
+    startHour: 9
+    endHour: 18
+    blacklistedNamespaces: "kube-system"
+    timeZone: "America/New_York"
+    debug:
+      enabled: false # if you want to enable debugging and see how pods killed immediately set enabled and schedule_immediate_kill to true
+      schedule_immediate_kill: false
