@@ -1,0 +1,4 @@
+name: fabrikate-kubemonkey
+generator: helm
+repo: "https://github.com/asobti/kube-monkey"
+path: "helm/kubemonkey"
